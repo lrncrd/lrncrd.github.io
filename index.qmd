@@ -1,6 +1,12 @@
 ---
-title: "cv_site"
+title: "Academic CV"
 jupyter: python3
 ---
+
 ### About me
 
+::: callout-warning
+## Hey!
+
+This site is **under construction**!
+:::
