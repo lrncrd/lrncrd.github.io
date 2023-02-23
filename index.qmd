@@ -1,12 +1,40 @@
 ---
-title: "Academic CV"
+title: "Lorenzo Cardarelli"
 jupyter: python3
+about:
+  id: hero-heading
+  template: solana
+  image: profile.jpg
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/Lrn_crd
+    - icon: github
+      text: GitHub
+      href: https://github.com/lrncrd
+    - icon: envelope
+      text: Email
+      href: mailto:lorenzo.cardarelli@uniba.it
+    - text: Researchgate
+      href: https://www.researchgate.net/profile/Lorenzo-Cardarelli-2
+    - text: ORCID
+      href: https://orcid.org/0000-0002-2436-9967
 ---
 
-### About me
-
-::: callout-warning
-## Hey!
-
-This site is **under construction**!
+::: {#hero-heading}
+PhD student \| Department of Ricerca e Innovazione Umanistica, University of Bari Aldo Moro \| Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area della Ricerca Roma 1.
 :::
+
+## About me
+
+***Hi!***
+
+I am currently conducting a PhD at the University of Bari Aldo Moro (PhD course in *Patrimoni archeologici, storici architettonici e paesaggistici mediterranei*) in collaboration with CNR-ISPC. My research interests mainly concern the application of quantitative and computer science methods to archaeology, with a specific focus on the application of unsupervised learning methods to ceramics.
+
+#### Research Interests
+
+-   Quantitative approach in archaeology
+-   Bronze and Iron Age
+-   Machine Learning application in archaeology
+-   GIS application in archaeology

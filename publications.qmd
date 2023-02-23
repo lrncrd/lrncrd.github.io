@@ -1,0 +1,16 @@
+---
+title: "Publications"
+jupyter: python3
+---
+
+### 2022
+
+**Cardarelli L.**, A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. *Journal of Archaeological Science*, 144 \[[url](https://doi.org/10.1016/j.jas.2022.105640)\]\[[code](https://github.com/lrncrd/VAEpots)\]
+
+Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian 'axe-monies' (*preprint*) \[[url](https://doi.org/10.21203/rs.3.rs-1962271/v1)\]
+
+**Cardarelli L.**, Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. *Archeologia e Calcolatori*, 33, 2 \[[url](https://doi.org/10.19282/ac.33.2.2022.03)\]\[[pdf](http://www.archcalc.cnr.it/indice/PDF33.2/03_Cardarelli_Lapadula.pdf)\]
+
+### 2020
+
+**Cardarelli L.**, Capienza delle forme vascolari, da un metodo open source all'uso di modelli regressivi: il caso dell'insediamento protostorico del Monte Cimino. *Archeologia e Calcolatori*, 31.1 \[[url](https://doi.org/10.19282/ac.31.1.2020.02)\]\[[pdf](http://www.archcalc.cnr.it/indice/PDF31.1/02_Cardarelli.pdf)\]
