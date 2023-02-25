@@ -1,0 +1,17 @@
+---
+title: "CV"
+jupyter: python3
+---
+
+## Education
+
+-   *In progress*: PhD student. University of Bari Aldo Moro, PhD course in *Patrimoni archeologici, storici architettonici e paesaggistici mediterranei*. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.
+
+-   2020 Master's Degree in Archeologia Sapienza University of Rome.
+
+-   2017 Bachelor Degree in Scienze Archeologiche. Sapienza University of Rome.
+
+
+## International experience
+
+- 2022 (March - June): Visiting Researcher at Österreichisches Archäologisches Institut (Vienna, AU)

@@ -12,7 +12,7 @@ website:
       - title: "Publications"
         url: "publications.qmd"
       - title: "CV"
-        url: "education.qmd"
+        url: "cv.qmd"
 
 format:
   html:
