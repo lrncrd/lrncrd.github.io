@@ -11,7 +11,10 @@ jupyter: python3
 
 -   2017 Bachelor Degree in Scienze Archeologiche. Sapienza University of Rome.
 
-
 ## International experience
 
-- 2022 (March - June): Visiting Researcher at Österreichisches Archäologisches Institut (Vienna, AU)
+-   2022 (March - June): Visiting Researcher at Österreichisches Archäologisches Institut (Vienna, AU)
+
+## Editorial work
+
+-   Peer-review (Journal of Archaeological Science)
