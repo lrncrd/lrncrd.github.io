@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: https://lrncrd.github.io/
   #title: "Academic CV"
   sidebar: 
     style: "docked"
