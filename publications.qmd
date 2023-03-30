@@ -5,7 +5,7 @@ jupyter: python3
 
 ### 2023
 
-Carlos E. Montalvo-Puente, Giancarlo Lago, **Lorenzo Cardarelli**, Juan C. Pérez-Molina, Money or ingots? Metrological research on pre-contact Ecuadorian "axe-monies". *Journal of Archaeological Science: Reports*, 49 \[[url](https://doi.org/10.1016/j.jasrep.2023.103976)\]
+Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian "axe-monies". *Journal of Archaeological Science: Reports*, 49 \[[url](https://doi.org/10.1016/j.jasrep.2023.103976)\]
 
 ### 2022
 
