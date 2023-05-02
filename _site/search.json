@@ -61,5 +61,19 @@
     "title": "CV",
     "section": "Editorial work",
     "text": "Editorial work\n\nPeer-review (Journal of Archaeological Science)"
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "Hi!\nI am currently conducting a PhD at the University of Bari Aldo Moro in collaboration with CNR-ISPC. My research interests mainly concern the application of quantitative and computer science methods to archaeology, with a specific focus on the application of unsupervised learning methods to ceramics.\n\n\n\nQuantitative approach in archaeology\nBronze and Iron Age\nMachine Learning application in archaeology\nGIS application in archaeology"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "",
+    "text": "In progress: PhD student. University of Bari Aldo Moro, PhD course in Patrimoni archeologici, storici architettonici e paesaggistici mediterranei. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.\n2020 Master’s Degree in Archeologia Sapienza University of Rome.\n2017 Bachelor Degree in Scienze Archeologiche. Sapienza University of Rome."
   }
 ]

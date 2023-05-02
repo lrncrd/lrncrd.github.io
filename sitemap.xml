@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lrncrd.github.io/index.html</loc>
-    <lastmod>2023-05-02T06:29:07.548Z</lastmod>
+    <lastmod>2023-05-02T17:47:55.303Z</lastmod>
   </url>
   <url>
     <loc>https://lrncrd.github.io/publications.html</loc>
@@ -10,6 +10,10 @@
   </url>
   <url>
     <loc>https://lrncrd.github.io/cv.html</loc>
-    <lastmod>2023-03-30T13:10:46.338Z</lastmod>
+    <lastmod>2023-05-02T17:47:54.344Z</lastmod>
+  </url>
+  <url>
+    <loc>https://lrncrd.github.io/about.html</loc>
+    <lastmod>2023-05-02T17:47:50.846Z</lastmod>
   </url>
 </urlset>
