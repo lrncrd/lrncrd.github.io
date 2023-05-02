@@ -5,6 +5,8 @@ jupyter: python3
 
 ### 2023
 
+Santi P., Cardarelli A., Bettelli M. Di Renzoni A., **Cardarelli L.**, Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). *Scientific Reports* 13, 7022 \[[url](https://www.nature.com/articles/s41598-023-34033-x)\]
+
 Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian "axe-monies". *Journal of Archaeological Science: Reports*, 49 \[[url](https://doi.org/10.1016/j.jasrep.2023.103976)\]
 
 ### 2022
