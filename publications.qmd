@@ -14,7 +14,7 @@ Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or
 ### 2022
 
 **Cardarelli L.**, A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. *Journal of Archaeological Science*, 144  &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.jas.2022.105640) &nbsp;
- [{{< fa code title="Link" >}}](https://github.com/lrncrd/VAEpot)
+ [{{< fa code title="Link" >}}](https://github.com/lrncrd/VAEpots)
 
 
 Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian 'axe-monies' (*preprint*) &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.21203/rs.3.rs-1962271/v1)
