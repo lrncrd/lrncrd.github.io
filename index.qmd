@@ -20,6 +20,9 @@ about:
       href: https://www.researchgate.net/profile/Lorenzo-Cardarelli-2
     - text: ORCID
       href: https://orcid.org/0000-0002-2436-9967
+    - text: CV
+      icon: file-person
+      href: https://lrncrd.github.io/full_cv.pdf
 ---
 
 ::: {#hero-heading}

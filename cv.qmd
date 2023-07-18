@@ -18,3 +18,5 @@ jupyter: python3
 ## Editorial work
 
 -   Peer-review (Journal of Archaeological Science)
+
+Click [here](https://lrncrd.github.io/full_cv.pdf) for the full CV
