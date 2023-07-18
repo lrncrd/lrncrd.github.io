@@ -25,4 +25,4 @@ Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or
 
 ### 2020
 
-**Cardarelli L.**, Capienza delle forme vascolari, da un metodo open source all'uso di modelli regressivi: il caso dell'insediamento protostorico del Monte Cimino. &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.31.1.2020.02) &nbsp; [{{< fa file-pdf title="Link" >}}](http://www.archcalc.cnr.it/indice/PDF31.1/02_Cardarelli.pdf)
+**Cardarelli L.**, Capienza delle forme vascolari, da un metodo open source all'uso di modelli regressivi: il caso dell'insediamento protostorico del Monte Cimino. *Archeologia e Calcolatori*, 31.1 &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.31.1.2020.02) &nbsp; [{{< fa file-pdf title="Link" >}}](http://www.archcalc.cnr.it/indice/PDF31.1/02_Cardarelli.pdf)
