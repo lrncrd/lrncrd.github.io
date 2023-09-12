@@ -3,26 +3,21 @@ title: "Publications"
 jupyter: python3
 ---
 
+
 ### 2023
 
-Santi P., Cardarelli A., Bettelli M. Di Renzoni A., **Cardarelli L.**, Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). *Scientific Reports* 13, 7022 &nbsp; [{{< fa file title="Link" >}}](https://www.nature.com/articles/s41598-023-34033-x)
+Santi P., Cardarelli A., Bettelli M. Di Renzoni A., **Cardarelli L.**, Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). *Scientific Reports* 13, 7022   [{{< fa file title="Link" >}}](https://www.nature.com/articles/s41598-023-34033-x)
 
-Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian "axe-monies". *Journal of Archaeological Science: Reports*, 49 &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.jasrep.2023.103976)
-
-
+Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian "axe-monies". *Journal of Archaeological Science: Reports*, 49   [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.jasrep.2023.103976)
 
 ### 2022
 
-**Cardarelli L.**, A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. *Journal of Archaeological Science*, 144  &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.jas.2022.105640) &nbsp;
- [{{< fa code title="Link" >}}](https://github.com/lrncrd/VAEpots)
+**Cardarelli L.**, A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. *Journal of Archaeological Science*, 144   [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.jas.2022.105640)   [{{< fa code title="Link" >}}](https://github.com/lrncrd/VAEpots)
 
+Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian 'axe-monies' (*preprint*)   [{{< fa file title="Link" >}}](https://doi.org/10.21203/rs.3.rs-1962271/v1)
 
-Montalvo Puente C. E., Lago G., **Cardarelli L.**, Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian 'axe-monies' (*preprint*) &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.21203/rs.3.rs-1962271/v1)
-
-**Cardarelli L.**, Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. *Archeologia e Calcolatori*, 33, 2 
-&nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.33.2.2022.03) &nbsp; [{{< fa file-pdf title="Link" >}}](http://www.archcalc.cnr.it/indice/PDF33.2/03_Cardarelli_Lapadula.pdf)
-
+**Cardarelli L.**, Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. *Archeologia e Calcolatori*, 33.2   [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.33.2.2022.03)   [{{< fa file-pdf title="Link" >}}](http://www.archcalc.cnr.it/indice/PDF33.2/03_Cardarelli_Lapadula.pdf)
 
 ### 2020
 
-**Cardarelli L.**, Capienza delle forme vascolari, da un metodo open source all'uso di modelli regressivi: il caso dell'insediamento protostorico del Monte Cimino. *Archeologia e Calcolatori*, 31.1 &nbsp; [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.31.1.2020.02) &nbsp; [{{< fa file-pdf title="Link" >}}](http://www.archcalc.cnr.it/indice/PDF31.1/02_Cardarelli.pdf)
+**Cardarelli L.**, Capienza delle forme vascolari, da un metodo open source all'uso di modelli regressivi: il caso dell'insediamento protostorico del Monte Cimino. *Archeologia e Calcolatori*, 31.1   [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.31.1.2020.02)   [{{< fa file-pdf title="Link" >}}](http://www.archcalc.cnr.it/indice/PDF31.1/02_Cardarelli.pdf)
