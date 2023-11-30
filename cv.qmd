@@ -1,11 +1,12 @@
 ---
 title: "CV"
-jupyter: python3
+#jupyter: python3
 ---
 
 ## Education
+-   Research Fellow, Dipartimento di Scienze dell'Antichità, University of Roma La Sapienza.
 
--   *In progress*: PhD student. University of Bari Aldo Moro, PhD course in *Patrimoni archeologici, storici architettonici e paesaggistici mediterranei*. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.
+-   2023 PhD candidate. University of Bari Aldo Moro, PhD course in *Patrimoni archeologici, storici architettonici e paesaggistici mediterranei*. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.
 
 -   2020 Master's Degree in Archeologia Sapienza University of Rome.
 
