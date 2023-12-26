@@ -8,7 +8,7 @@ title: "Publications"
 
 **Cardarelli L.**, Traditional and digital typologies compared: the example of Italian protohistory. *Origini*, XLVII (*forthcoming*)
 
-**Cardarelli L.**, Defining Southern Etruria Final Bronze Age settlement models using an integrated GIS and machine learning approach. *Archeologia e Calcolatori*, 34.2 (*forthcoming*)
+**Cardarelli L.**, Defining Southern Etruria Final Bronze Age settlement models using an integrated GIS and machine learning approach. *Archeologia e Calcolatori*, 34.2   [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.34.2.2023.03)
 
 Santi P., Cardarelli A., Bettelli M. Di Renzoni A., **Cardarelli L.**, Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). *Scientific Reports* 13, 7022   [{{< fa file title="Link" >}}](https://www.nature.com/articles/s41598-023-34033-x)
 
