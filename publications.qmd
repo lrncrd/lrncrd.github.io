@@ -3,7 +3,6 @@ title: "Publications"
 #jupyter: python3
 ---
 
-
 ### 2023
 
 **Cardarelli L.**, Traditional and digital typologies compared: the example of Italian protohistory. *Origini*, XLVII (*forthcoming*)

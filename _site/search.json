@@ -89,5 +89,12 @@
     "title": "Publications",
     "section": "",
     "text": "Santi P., Cardarelli A., Bettelli M. Di Renzoni A., Cardarelli L., Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). Scientific Reports 13, 7022   \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian “axe-monies”. Journal of Archaeological Science: Reports, 49   \n\n\n\nCardarelli L., A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. Journal of Archaeological Science, 144      \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian ‘axe-monies’ (preprint)   \nCardarelli L., Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. Archeologia e Calcolatori, 33, 2      \n\n\n\nCardarelli L., Capienza delle forme vascolari, da un metodo open source all’uso di modelli regressivi: il caso dell’insediamento protostorico del Monte Cimino. Archeologia e Calcolatori, 31.1"
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "Packages",
+    "section": "",
+    "text": "CQArchaeo\nA Python package for calculating and plotting Kendall CQA results.\nCQArchaeo is a simple package that allows testing a numerical dataset with the formula established by Kendall (1974)."
   }
 ]

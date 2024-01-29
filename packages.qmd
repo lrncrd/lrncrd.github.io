@@ -1,0 +1,23 @@
+---
+title: "Packages"
+#jupyter: python3
+css: styles.css
+---
+
+
+<div>
+<div style="float: left; position: relative; top: 0px; padding: 30px;">
+[![](imgs/logo_cqarchaeo.jpg){width="350"}](https://github.com/lrncrd/CQArchae)
+</div>
+
+### `CQArchaeo`
+A Python package for calculating and plotting Kendall CQA results.
+
+`CQArchaeo` is a simple package that allows testing a numerical dataset with the formula established by Kendall (1974).
+</div>
+
+
+</div>
+
+
+

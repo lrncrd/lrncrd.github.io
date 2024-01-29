@@ -1,6 +1,6 @@
 ---
 title: "Conference Talks"
-jupyter: python3
+#jupyter: python3
 ---
 
 ### 2023
