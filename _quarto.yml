@@ -16,6 +16,8 @@ website:
         url: "cv.qmd"
       - title: "Conference Talks"
         url: "talks.qmd"
+      - title: "Packages"
+        url: "packages.qmd"
 
 format:
   html:

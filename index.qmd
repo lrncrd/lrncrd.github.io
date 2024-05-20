@@ -26,14 +26,14 @@ about:
 ---
 
 ::: {#hero-heading}
-Research Fellow, Dipartimento di Scienze dell'Antichità, University of Roma La Sapienza \| PhD candidate \| Department of Ricerca e Innovazione Umanistica, University of Bari Aldo Moro \| Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area della Ricerca Roma 1.
+Research Fellow, Dipartimento di Scienze dell'Antichità, Sapienza University of Rome \| Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area della Ricerca Roma 1.
 :::
 
 ## About me
 
 ***Hi!***
 
-I am currently a postdoctoral researcher at the University of Rome La Sapienza. I'm also an Associate Researcher at the CNR-ISPC. My research interests mainly concern the application of quantitative and computational methods to archaeology, with a particular focus on the application of unsupervised learning methods to ceramics.
+I am currently a postdoctoral researcher at the Sapienza, University of Rome. I'm also an Associate Researcher at the CNR-ISPC. My research interests mainly concern the application of quantitative and computational methods to archaeology, with a particular focus on the application of unsupervised learning methods to ceramics.
 
 #### Research Interests
 

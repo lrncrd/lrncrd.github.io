@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Lorenzo Cardarelli",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n  \n     Researchgate\n  \n  \n     ORCID\n  \n  \n    \n     CV\n  \n\n      \nResearch Fellow, Dipartimento di Scienze dell’Antichità, University of Roma La Sapienza | PhD candidate | Department of Ricerca e Innovazione Umanistica, University of Bari Aldo Moro | Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area della Ricerca Roma 1.",
+    "text": "Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n  \n     Researchgate\n  \n  \n     ORCID\n  \n  \n    \n     CV\n  \n\n      \nResearch Fellow, Dipartimento di Scienze dell’Antichità, Sapienza University of Rome | Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area della Ricerca Roma 1.",
     "crumbs": [
       "Lorenzo Cardarelli"
     ]
@@ -31,7 +31,7 @@
     "href": "index.html#about-me",
     "title": "Lorenzo Cardarelli",
     "section": "About me",
-    "text": "About me\nHi!\nI am currently a postdoctoral researcher at the University of Rome La Sapienza. I’m also an Associate Researcher at the CNR-ISPC. My research interests mainly concern the application of quantitative and computational methods to archaeology, with a particular focus on the application of unsupervised learning methods to ceramics.\n\nResearch Interests\n\nQuantitative approach in archaeology\nBronze and Iron Age\nMachine Learning application in archaeology\nGIS application in archaeology\nUnsupervised Learning in archaeology",
+    "text": "About me\nHi!\nI am currently a postdoctoral researcher at the Sapienza, University of Rome. I’m also an Associate Researcher at the CNR-ISPC. My research interests mainly concern the application of quantitative and computational methods to archaeology, with a particular focus on the application of unsupervised learning methods to ceramics.\n\nResearch Interests\n\nQuantitative approach in archaeology\nBronze and Iron Age\nMachine Learning application in archaeology\nGIS application in archaeology\nUnsupervised Learning in archaeology",
     "crumbs": [
       "Lorenzo Cardarelli"
     ]
@@ -55,21 +55,30 @@
     "href": "cv.html",
     "title": "CV",
     "section": "",
-    "text": "Research Fellow, Dipartimento di Scienze dell’Antichità, University of Roma La Sapienza.\n2023 PhD candidate. University of Bari Aldo Moro, PhD course in Patrimoni archeologici, storici architettonici e paesaggistici mediterranei. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.\n2020 Master’s Degree in Archeologia Sapienza University of Rome.\n2017 Bachelor Degree in Scienze Archeologiche. Sapienza University of Rome."
+    "text": "Research Fellow, Dipartimento di Scienze dell’Antichità, Sapienza University of Rome.\n2023 PhD candidate. University of Bari Aldo Moro, PhD course in Patrimoni archeologici, storici architettonici e paesaggistici mediterranei. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.\n2020 Master’s Degree in Archeologia Sapienza University of Rome.\n2017 Bachelor Degree in Scienze Archeologiche. Sapienza University of Rome.",
+    "crumbs": [
+      "CV"
+    ]
   },
   {
     "objectID": "cv.html#international-experience",
     "href": "cv.html#international-experience",
     "title": "CV",
     "section": "International experience",
-    "text": "International experience\n\n2022 (March - June): Visiting Researcher at Österreichisches Archäologisches Institut (Vienna, AU)"
+    "text": "International experience\n\n2022 (March - June): Visiting Researcher at Österreichisches Archäologisches Institut (Vienna, AU)",
+    "crumbs": [
+      "CV"
+    ]
   },
   {
     "objectID": "cv.html#editorial-work",
     "href": "cv.html#editorial-work",
     "title": "CV",
     "section": "Editorial work",
-    "text": "Editorial work\n\nPeer-review (Journal of Archaeological Science)\n\nClick here for the full CV"
+    "text": "Editorial work\n\nPeer-review (Journal of Archaeological Science)\n\nClick here for the full CV",
+    "crumbs": [
+      "CV"
+    ]
   },
   {
     "objectID": "about.html#about-me",
@@ -83,14 +92,20 @@
     "href": "cv.html#education",
     "title": "CV",
     "section": "",
-    "text": "Research Fellow, Dipartimento di Scienze dell’Antichità, University of Roma La Sapienza.\n2023 PhD candidate. University of Bari Aldo Moro, PhD course in Patrimoni archeologici, storici architettonici e paesaggistici mediterranei. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.\n2020 Master’s Degree in Archeologia Sapienza University of Rome.\n2017 Bachelor Degree in Scienze Archeologiche. Sapienza University of Rome."
+    "text": "Research Fellow, Dipartimento di Scienze dell’Antichità, Sapienza University of Rome.\n2023 PhD candidate. University of Bari Aldo Moro, PhD course in Patrimoni archeologici, storici architettonici e paesaggistici mediterranei. Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area di Ricerca Roma 1.\n2020 Master’s Degree in Archeologia Sapienza University of Rome.\n2017 Bachelor Degree in Scienze Archeologiche. Sapienza University of Rome.",
+    "crumbs": [
+      "CV"
+    ]
   },
   {
     "objectID": "talks.html",
     "href": "talks.html",
     "title": "Conference Talks",
     "section": "",
-    "text": "2023\nConversation - Museo Numismatico, Banco Central del Ecuador. Montalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Avances sobre los estudios de las hachas-monedasQuito (ECU), 23 July 2023.\n13° International Congress on the Archaeology of the Ancient Near East (ICAANE). Workshop Serialising, standardising, specialising: Investigating a techno-social nexus underlying social complexity. Cardarelli L., Computerised approaches for investigating the morphological standardization of Arslantepe VI A pottery, Copenhagen, 24 may 2023\n\n\n2020\nIAS – Incontri di Archeologia 2020. Digital Humanities Session I-II. Cardarelli L., Capienza delle forme vascolari, un metodo basato su strumenti e formati open source che include l’uso di modelli regressivi: il caso dell’insediamento protostorico del Monte Cimino (paper). Rome, 19 november 2020."
+    "text": "2023\nConversation - Museo Numismatico, Banco Central del Ecuador. Montalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Avances sobre los estudios de las hachas-monedasQuito (ECU), 23 July 2023.\n13° International Congress on the Archaeology of the Ancient Near East (ICAANE). Workshop Serialising, standardising, specialising: Investigating a techno-social nexus underlying social complexity. Cardarelli L., Computerised approaches for investigating the morphological standardization of Arslantepe VI A pottery, Copenhagen, 24 may 2023\n\n\n2020\nIAS – Incontri di Archeologia 2020. Digital Humanities Session I-II. Cardarelli L., Capienza delle forme vascolari, un metodo basato su strumenti e formati open source che include l’uso di modelli regressivi: il caso dell’insediamento protostorico del Monte Cimino (paper). Rome, 19 november 2020.",
+    "crumbs": [
+      "Conference Talks"
+    ]
   },
   {
     "objectID": "publications.html#bi-journal",
@@ -98,5 +113,15 @@
     "title": "Publications",
     "section": "",
     "text": "Santi P., Cardarelli A., Bettelli M. Di Renzoni A., Cardarelli L., Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). Scientific Reports 13, 7022   \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian “axe-monies”. Journal of Archaeological Science: Reports, 49   \n\n\n\nCardarelli L., A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. Journal of Archaeological Science, 144      \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian ‘axe-monies’ (preprint)   \nCardarelli L., Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. Archeologia e Calcolatori, 33, 2      \n\n\n\nCardarelli L., Capienza delle forme vascolari, da un metodo open source all’uso di modelli regressivi: il caso dell’insediamento protostorico del Monte Cimino. Archeologia e Calcolatori, 31.1"
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "Packages",
+    "section": "",
+    "text": "CQArchaeo\nA Python package for calculating and plotting Kendall CQA results.\nCQArchaeo is a simple package that allows testing a numerical dataset with the formula established by Kendall (1974).",
+    "crumbs": [
+      "Packages"
+    ]
   }
 ]
