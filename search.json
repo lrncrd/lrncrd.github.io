@@ -4,7 +4,10 @@
     "href": "index.html",
     "title": "Lorenzo Cardarelli",
     "section": "",
-    "text": "Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n  \n     Researchgate\n  \n  \n     ORCID\n  \n  \n    \n     CV\n  \n\n      \nResearch Fellow, Dipartimento di Scienze dell’Antichità, University of Roma La Sapienza | PhD candidate | Department of Ricerca e Innovazione Umanistica, University of Bari Aldo Moro | Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area della Ricerca Roma 1."
+    "text": "Twitter\n  \n  \n    \n     GitHub\n  \n  \n    \n     Email\n  \n  \n     Researchgate\n  \n  \n     ORCID\n  \n  \n    \n     CV\n  \n\n      \nResearch Fellow, Dipartimento di Scienze dell’Antichità, University of Roma La Sapienza | PhD candidate | Department of Ricerca e Innovazione Umanistica, University of Bari Aldo Moro | Associate researcher, CNR - Istituto di Scienze del Patrimonio Culturale, Area della Ricerca Roma 1.",
+    "crumbs": [
+      "Lorenzo Cardarelli"
+    ]
   },
   {
     "objectID": "about.html",
@@ -18,14 +21,20 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "2023\nCardarelli L., Traditional and digital typologies compared: the example of Italian protohistory. Origini, XLVII (forthcoming)\nCardarelli L., Defining Southern Etruria Final Bronze Age settlement models using an integrated GIS and machine learning approach. Archeologia e Calcolatori, 34.2   \nSanti P., Cardarelli A., Bettelli M. Di Renzoni A., Cardarelli L., Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). Scientific Reports 13, 7022   \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian “axe-monies”. Journal of Archaeological Science: Reports, 49   \n\n\n2022\nCardarelli L., A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. Journal of Archaeological Science, 144      \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian ‘axe-monies’ (preprint)   \nCardarelli L., Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. Archeologia e Calcolatori, 33.2      \n\n\n2020\nCardarelli L., Capienza delle forme vascolari, da un metodo open source all’uso di modelli regressivi: il caso dell’insediamento protostorico del Monte Cimino. Archeologia e Calcolatori, 31.1"
+    "text": "2023\nCardarelli A., Di Renzoni A., Bettelli M., de Neef W., Scacchetti F., Cardarelli L., Paniccia C., Paolini E., The Late Bronze age hilltop site of Monte Croce Guardia in the context of Bronze Age and Early Iron Age settlement organization in Peninsular Italy. Origini, XLVII   \nCardarelli L., Traditional and digital typologies compared: the example of Italian protohistory. Origini, XLVII      \nCardarelli L., Defining Southern Etruria Final Bronze Age settlement models using an integrated GIS and machine learning approach. Archeologia e Calcolatori, 34.2   \nSanti P., Cardarelli A., Bettelli M. Di Renzoni A., Cardarelli L., Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). Scientific Reports 13, 7022   \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian “axe-monies”. Journal of Archaeological Science: Reports, 49   \n\n\n2022\nCardarelli L., A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. Journal of Archaeological Science, 144      \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian ‘axe-monies’ (preprint)   \nCardarelli L., Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. Archeologia e Calcolatori, 33.2      \n\n\n2020\nCardarelli L., Capienza delle forme vascolari, da un metodo open source all’uso di modelli regressivi: il caso dell’insediamento protostorico del Monte Cimino. Archeologia e Calcolatori, 31.1",
+    "crumbs": [
+      "Publications"
+    ]
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Lorenzo Cardarelli",
     "section": "About me",
-    "text": "About me\nHi!\nI am currently a postdoctoral researcher at the University of Rome La Sapienza. I’m also an Associate Researcher at the CNR-ISPC. My research interests mainly concern the application of quantitative and computational methods to archaeology, with a particular focus on the application of unsupervised learning methods to ceramics.\n\nResearch Interests\n\nQuantitative approach in archaeology\nBronze and Iron Age\nMachine Learning application in archaeology\nGIS application in archaeology\nUnsupervised Learning in archaeology"
+    "text": "About me\nHi!\nI am currently a postdoctoral researcher at the University of Rome La Sapienza. I’m also an Associate Researcher at the CNR-ISPC. My research interests mainly concern the application of quantitative and computational methods to archaeology, with a particular focus on the application of unsupervised learning methods to ceramics.\n\nResearch Interests\n\nQuantitative approach in archaeology\nBronze and Iron Age\nMachine Learning application in archaeology\nGIS application in archaeology\nUnsupervised Learning in archaeology",
+    "crumbs": [
+      "Lorenzo Cardarelli"
+    ]
   },
   {
     "objectID": "prova.html",
@@ -89,12 +98,5 @@
     "title": "Publications",
     "section": "",
     "text": "Santi P., Cardarelli A., Bettelli M. Di Renzoni A., Cardarelli L., Paniccia C., Renzulli A., Tracing the human movements of three thousand years ago by volcanic grinding tools in the Final Bronze Age settlement of Monte Croce Guardia (Arcevia-Marche Region, central Italy). Scientific Reports 13, 7022   \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian “axe-monies”. Journal of Archaeological Science: Reports, 49   \n\n\n\nCardarelli L., A deep variational convolutional Autoencoder for unsupervised features extraction of ceramic profiles. A case study from central Italy. Journal of Archaeological Science, 144      \nMontalvo Puente C. E., Lago G., Cardarelli L., Pérez Molina J. C., Money or ingots? Metrological research on pre-contact Ecuadorian ‘axe-monies’ (preprint)   \nCardarelli L., Lapadula A., Dimensionality reduction for data visualization and exploratory analysis of ceramic assemblages. Archeologia e Calcolatori, 33, 2      \n\n\n\nCardarelli L., Capienza delle forme vascolari, da un metodo open source all’uso di modelli regressivi: il caso dell’insediamento protostorico del Monte Cimino. Archeologia e Calcolatori, 31.1"
-  },
-  {
-    "objectID": "packages.html",
-    "href": "packages.html",
-    "title": "Packages",
-    "section": "",
-    "text": "CQArchaeo\nA Python package for calculating and plotting Kendall CQA results.\nCQArchaeo is a simple package that allows testing a numerical dataset with the formula established by Kendall (1974)."
   }
 ]

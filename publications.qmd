@@ -3,9 +3,12 @@ title: "Publications"
 #jupyter: python3
 ---
 
+
 ### 2023
 
-**Cardarelli L.**, Traditional and digital typologies compared: the example of Italian protohistory. *Origini*, XLVII (*forthcoming*)
+Cardarelli A., Di Renzoni A., Bettelli M., de Neef W., Scacchetti F., **Cardarelli L.**, Paniccia C., Paolini E., The Late Bronze age hilltop site of Monte Croce Guardia in the context of Bronze Age and Early Iron Age settlement organization in Peninsular Italy. *Origini*, XLVII   [{{< fa file title="Link" >}}](https://www.torrossa.com/it/catalog/preview/5751207)
+
+**Cardarelli L.**, Traditional and digital typologies compared: the example of Italian protohistory. *Origini*, XLVII   [{{< fa file title="Link" >}}](https://www.torrossa.com/it/catalog/preview/5751207)   [{{< fa code title="Link" >}}](https://www.edizioniquasar.cloud/Typologies-traditional-vs-digital/)
 
 **Cardarelli L.**, Defining Southern Etruria Final Bronze Age settlement models using an integrated GIS and machine learning approach. *Archeologia e Calcolatori*, 34.2   [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.34.2.2023.03)
 
