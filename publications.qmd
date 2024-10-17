@@ -3,6 +3,11 @@ title: "Publications"
 #jupyter: python3
 ---
 
+### 2024
+
+**Cardarelli L.**, From fragments to digital wholeness: an AI generative approach to reconstructing archaeological vessels. *Journal of Cultural Heritage*, 70   [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.culher.2024.09.012)    [{{< fa code title="Link" >}}](https://github.com/lrncrd/ReconstructionPots)
+
+Lago G., **Cardarelli L.**, Ialongo N., Cqarchaeo: a Python package for cosine quantogram analysis and Monte Carlo simulations. *Archeologia e Calcolatori*, 35.1   [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.35.1.2024.15)    [{{< fa code title="Link" >}}](https://github.com/lrncrd/CQArchaeo)
 
 ### 2023
 
