@@ -5,19 +5,33 @@ css: styles.css
 ---
 
 
-<div>
-<div style="float: left; position: relative; top: 0px; padding: 30px;">
-[![](imgs/logo_cqarchaeo.jpg){width="350"}](https://github.com/lrncrd/CQArchaeo)
-</div>
+::: {.logo-container style="text-align: center;"}
+![](imgs/pypotteryink.png){width=250}
 
-### `CQArchaeo`
-A Python package for calculating and plotting Kendall CQA results.
+#### PyPotterInk  
+*A deep learning Python package for automating the digital inking process of archaeological pottery drawings.*  
+**PyPotteryInk** is a deep learning application for automating the digital inking process of archaeological pottery drawings. It transforms pencil drawings into publication-ready illustrations while preserving the original characteristics and enhancing their analytical power.  
+[Learn more](https://github.com/lrncrd/PyPotteryInk)
+:::
 
-`CQArchaeo` is a simple package that allows testing a numerical dataset with the formula established by Kendall (1974).
-</div>
+---
 
+::: {.logo-container style="text-align: center;"}
+![](imgs/pypotterylens.png){width=150}
 
-</div>
+#### PyPotterLens  
+*A Python library for the quantitative study of archaeological pottery.*  
+**PyPotterLens** is a Gradio desktop application for archaeological pottery drawings recording. It provides a comprehensive suite of tools for processing, detecting, and analyzing pottery fragments from scanned documents.  
+[Learn more](https://github.com/lrncrd/PyPottery/tree/PyPotteryLens)
+:::
 
+---
 
+::: {.logo-container style="text-align: center;"}
+![](imgs/logo_cqarchaeo.jpg){width=250}
 
+#### CQArchaeo  
+*A Python package for calculating and plotting Kendall CQA results.*  
+**CQArchaeo** is a Python package for testing numerical datasets using Kendall's formula (1974).  
+[Learn more](https://github.com/lrncrd/CQArchaeo)
+:::

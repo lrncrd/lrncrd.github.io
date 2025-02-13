@@ -18,6 +18,6 @@ title: "CV"
 
 ## Editorial work
 
--   Peer-review (Journal of Archaeological Science)
+-   Peer-review (Journal of Archaeological Science, PLOS ONE, Computer Applications and Quantitative Methods in Archaeology)
 
 Click [here](https://lrncrd.github.io/full_cv.pdf) for the full CV
