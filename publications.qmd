@@ -3,25 +3,40 @@ title: "Publications"
 #jupyter: python3
 ---
 
+### 2026
+
+Montalvo Puente C. E., Lago G., **Cardarelli L.**, Costantine-Castro J., Pérez Molina J., Counting rather than weighing: metrological analysis and machine learning reveal the monetary potential of pre-contact Ecuadorian axe-monies. *Journal of Archaeological Science: Reports*, 69   [{{< fa file title="Link" >}}](https://www.sciencedirect.com/science/article/pii/S2352409X25005589)
+
 ### 2025
 
-**Cardarelli L.**, PyPotteryInk: One-Step Diffusion Model for Sketch to Publication-ready Archaeological Drawings, *preprint*   [{{< fa file title="Link" >}}](https://arxiv.org/abs/2502.06897)    [{{< fa code title="Link" >}}](https://github.com/lrncrd/PyPotteryInk)
+**Cardarelli L.**, PyPotteryInk: One-step diffusion model for sketch to publication-ready archaeological drawings. *Journal of Cultural Heritage*, 74  [{{< fa file title="Link" >}}](https://www.sciencedirect.com/science/article/pii/S1296207425001268)
 
 Carletti E., Conati Barbaro C., Allegretta I., **Cardarelli L.**, Forti L., Monno A., Terzano R., Eramo G., Chert sources and territorial behaviour after the Neolithization process: An exploratory analysis from Grotta Battifratta (Rieti, Central Italy). *Quaternary International*, 717   [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.quaint.2024.109633)
 
+**Cardarelli L.**, The legacy: the Data Science movement. *Analyse des données and archaeology fifty years later: from data analysis to data science*, All’Insegna del Giglio [{{< fa file title="Link" >}}](https://www.insegnadelgiglio.it/wp-content/uploads/2025/06/9788892853751.pdf)
+
+
+**Cardarelli L.**, Fragnoli P., D'Anna M. B., Quantifying morphological standardization through binary matrices with an application to the ceramic assemblage of an early complex society. *Paléorient.*, 51 [{{< fa file title="Link" >}}](https://journals.openedition.org/paleorient/5687)
+
+
+**Cardarelli L.**, PyPotteryLens: An Open-Source Deep Learning Framework for Automated Digitisation of Archaeological Pottery Documentation. *Digital Applications in Archaeology and Cultural Heritage*, 38 [{{< fa file title="Link" >}}](https://www.sciencedirect.com/science/article/pii/S2212054825000542)
+
+Alessandri L., **Cardarelli L.**, Cesaretti A., Dan R., Fiorillo A., Sotgia A., Cusimano L., Della sala G. A., Rossi C., From pencil to pixel: assessing ceramatic 2.0 against manual and laser-aided techniques in archaeological pottery documentation. *Digital Applications in Archaeology and Cultural Heritage*, 37 [{{< fa file title="Link" >}}](https://www.sciencedirect.com/science/article/pii/S2212054825000372)
+
+**Cardarelli L.**, PyPotteryInk: One-Step Diffusion Model for Sketch to Publication-ready Archaeological Drawings, *preprint*   [{{< fa file title="Link" >}}](https://arxiv.org/abs/2502.06897)   [{{< fa code title="Link" >}}](https://github.com/lrncrd/PyPotteryInk)
+
 ### 2024
 
-**Cardarelli L.**, PyPotteryLens: An Open-Source Deep Learning Framework for Automated Digitisation
-of Archaeological Pottery Documentation, *preprint*   [{{< fa file title="Link" >}}](https://arxiv.org/abs/2412.11574)    [{{< fa code title="Link" >}}](https://github.com/lrncrd/PyPottery/tree/PyPotteryLens)
 
-**Cardarelli L.**, Erbetti F., Paniccia C., Paolini E., Vessel typological classification: comparing archaeologist perspectives to a digital
-approach. *Studi in onore di Andrea Cardarelli*, Naus Editoria
+**Cardarelli L.**, PyPotteryLens: An Open-Source Deep Learning Framework for Automated Digitisation of Archaeological Pottery Documentation, *preprint*   [{{< fa file title="Link" >}}](https://arxiv.org/abs/2412.11574)   [{{< fa code title="Link" >}}](https://github.com/lrncrd/PyPottery/tree/PyPotteryLens)
 
-**Cardarelli L.**, Morphological variability and standardisation of vessel shapes in the 2nd and first half of the first millennium BC in continental Italy. A data science and machine learning project for the quantitative study of archaeological ceramic profiles. Edipuglia ISBN 979-12-5995-084-0   [{{< fa file title="Link" >}}](https://edipuglia.it/PDF/index.php?file=Adrias_18&n=Adrias_18&t)    [{{< fa code title="Link" >}}](https://edipuglia.it/pasap01/)
+**Cardarelli L.**, Erbetti F., Paniccia C., Paolini E., Vessel typological classification: comparing archaeologist perspectives to a digital approach. *Studi in onore di Andrea Cardarelli*, Naus Editoria
 
-**Cardarelli L.**, From fragments to digital wholeness: an AI generative approach to reconstructing archaeological vessels. *Journal of Cultural Heritage*, 70   [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.culher.2024.09.012)    [{{< fa code title="Link" >}}](https://github.com/lrncrd/ReconstructionPots)
+**Cardarelli L.**, Morphological variability and standardisation of vessel shapes in the 2nd and first half of the first millennium BC in continental Italy. A data science and machine learning project for the quantitative study of archaeological ceramic profiles. Edipuglia ISBN 979-12-5995-084-0   [{{< fa file title="Link" >}}](https://edipuglia.it/PDF/index.php?file=Adrias_18&n=Adrias_18&t)   [{{< fa code title="Link" >}}](https://edipuglia.it/pasap01/)
 
-Lago G., **Cardarelli L.**, Ialongo N., Cqarchaeo: a Python package for cosine quantogram analysis and Monte Carlo simulations. *Archeologia e Calcolatori*, 35.1   [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.35.1.2024.15)    [{{< fa code title="Link" >}}](https://github.com/lrncrd/CQArchaeo)
+**Cardarelli L.**, From fragments to digital wholeness: an AI generative approach to reconstructing archaeological vessels. *Journal of Cultural Heritage*, 70   [{{< fa file title="Link" >}}](https://doi.org/10.1016/j.culher.2024.09.012)   [{{< fa code title="Link" >}}](https://github.com/lrncrd/ReconstructionPots)
+
+Lago G., **Cardarelli L.**, Ialongo N., Cqarchaeo: a Python package for cosine quantogram analysis and Monte Carlo simulations. *Archeologia e Calcolatori*, 35.1   [{{< fa file title="Link" >}}](https://doi.org/10.19282/ac.35.1.2024.15)   [{{< fa code title="Link" >}}](https://github.com/lrncrd/CQArchaeo)
 
 ### 2023
 
