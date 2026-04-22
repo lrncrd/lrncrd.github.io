@@ -429,6 +429,32 @@ p {
     transform: translateY(0);
 }
 
+/* Page Header & Illustrations */
+.page-header {
+    position: relative;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    min-height: 120px;
+}
+
+.page-header h1 {
+    margin-bottom: 0;
+}
+
+.header-illustration {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    flex-shrink: 0;
+}
+
+.float-1 { animation: float 6s ease-in-out infinite; position: absolute; }
+.float-2 { animation: float 8s ease-in-out infinite reverse; position: absolute; }
+.float-3 { animation: float 7s ease-in-out infinite 1s; position: absolute; }
+
 /* List variants */
 .bullets-list {
     list-style: none;

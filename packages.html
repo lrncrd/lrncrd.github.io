@@ -143,16 +143,55 @@
 
         <!-- Main Content -->
         <main class="main-content">
-            <h1 class="animate-on-scroll">Software Packages</h1>
-            <p class="animate-on-scroll" style="max-width: 600px; margin-bottom: 2rem;">Explore the open-source tools
-                and frameworks I've developed for computational archaeology, deep learning applications, and
-                quantitative analysis.</p>
+            <div class="page-header animate-on-scroll">
+                <div>
+                    <h1 style="margin-bottom: 0.5rem;">Software Packages</h1>
+                    <p style="max-width: 600px; margin-bottom: 0; color: var(--text-secondary);">Explore the open-source
+                        tools
+                        and frameworks I've developed for computational archaeology, deep learning applications, and
+                        quantitative analysis.</p>
+                </div>
+                <div class="header-illustration">
+                    <!-- Box -->
+                    <div class="float-2" style="top: 20px; right: 50px;">
+                        <svg style="width: 90px; height: 90px; opacity: 0.9;" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 50 10 L 90 30 L 90 70 L 50 90 L 10 70 L 10 30 Z" fill="#FFDAC1" />
+                            <path d="M 50 10 L 90 30 L 50 50 L 10 30 Z" fill="#FFE5CC" />
+                            <path d="M 10 30 L 50 50 L 50 90 L 10 70 Z" fill="#FFD0A8" />
+                        </svg>
+                    </div>
+                    <!-- Code Brackets -->
+                    <div class="float-1" style="top: 60px; right: 10px;">
+                        <svg style="width: 60px; height: 60px; transform: rotate(15deg); opacity: 0.9;"
+                            viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="0" y="0" width="100" height="100" rx="20" fill="#C7CEEA" />
+                            <path d="M 35 30 L 15 50 L 35 70" fill="none" stroke="#fff" stroke-width="8"
+                                stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+                            <path d="M 65 30 L 85 50 L 65 70" fill="none" stroke="#fff" stroke-width="8"
+                                stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
+                            <line x1="55" y1="25" x2="45" y2="75" stroke="#fff" stroke-width="8" stroke-linecap="round"
+                                opacity="0.8" />
+                        </svg>
+                    </div>
+                    <!-- Small decorative element -->
+                    <div class="float-3" style="top: 5px; right: 120px;">
+                        <svg style="width: 35px; height: 35px; opacity: 0.8; transform: rotate(45deg);"
+                            viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="35" y="10" width="30" height="80" rx="4" fill="#B5EAD7" />
+                            <rect x="10" y="35" width="80" height="30" rx="4" fill="#B5EAD7" />
+                            <circle cx="50" cy="50" r="25" fill="#B5EAD7" />
+                            <circle cx="50" cy="50" r="10" fill="var(--bg-primary)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
 
             <div class="packages-grid">
 
                 <!-- PyPotteryInk -->
                 <div class="glass-card package-card animate-on-scroll">
-                    <img src="assets/pypotteryink.png" alt="PyPotteryInk Logo" class="package-image">
+                    <img src="assets/LogoInk.png" alt="PyPotteryInk Logo" class="package-image">
                     <h3 class="package-title">PyPotteryInk</h3>
                     <div class="package-subtitle">Deep learning for archaeological inking</div>
                     <p class="package-desc">
@@ -173,7 +212,7 @@
 
                 <!-- PyPotteryLens -->
                 <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.1s;">
-                    <img src="assets/pypotterylens.png" alt="PyPotteryLens Logo" class="package-image">
+                    <img src="assets/LogoLens.png" alt="PyPotteryLens Logo" class="package-image">
                     <h3 class="package-title">PyPotteryLens</h3>
                     <div class="package-subtitle">Desktop app for pottery drawings recording</div>
                     <p class="package-desc">
@@ -204,6 +243,76 @@
                         numerical datasets using Kendall's formula (1974) efficiently.
                     </p>
                     <a href="https://github.com/lrncrd/CQArchaeo" target="_blank" class="package-link">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                        GitHub Repository
+                    </a>
+                </div>
+
+                <!-- Ceramatic 2.0 -->
+                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.1s;">
+                    <img src="assets/logo_ceramatic.png" alt="Ceramatic 2.0 Logo" class="package-image">
+                    <h3 class="package-title">Ceramatic2.0</h3>
+                    <div class="package-subtitle">Computer vision for drawings</div>
+                    <p class="package-desc">
+                        A computer vision pipeline for archaeological drawings.
+                    </p>
+                    <a href="https://github.com/lrncrd/Ceramatic2.0" target="_blank" class="package-link">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                        GitHub Repository
+                    </a>
+                </div>
+
+                <!-- PyPotteryLayout -->
+                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.2s;">
+                    <img src="assets/LogoLayout.png" alt="PyPotteryLayout Logo" class="package-image">
+                    <h3 class="package-title">PyPotteryLayout</h3>
+                    <div class="package-subtitle">Artefact tables creator</div>
+                    <p class="package-desc">
+                        A Python package for the intelligent creation of artefact tables.
+                    </p>
+                    <a href="https://github.com/lrncrd/PyPotteryLayout" target="_blank" class="package-link">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                        GitHub Repository
+                    </a>
+                </div>
+
+                <!-- Ceraloop! -->
+                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.3s;">
+                    <img src="assets/CeraLoop.png" alt="Ceraloop! Logo" class="package-image">
+                    <h3 class="package-title">Ceraloop!</h3>
+                    <div class="package-subtitle">Perception and comparison</div>
+                    <p class="package-desc">
+                        A web-based framework for analysing the concepts of "perception" and "comparison" in
+                        archaeology. With Prof. Julian Bogdani.
+                    </p>
+                    <a href="https://ceraloop.lad-sapienza.it/" target="_blank" class="package-link">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                            </path>
+                        </svg>
+                        Website
+                    </a>
+                    <a href="https://github.com/lad-sapienza/ceraloop" target="_blank" class="package-link"
+                        style="margin-top: 0.5rem;">
                         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
                             stroke-width="2">
                             <path
