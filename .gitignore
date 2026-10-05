@@ -11,3 +11,11 @@ full_cv.log
 full_cv.synctex.gz
 full_cv.tex
 
+
+# Impeccable design context and local-only files
+.impeccable/
+.claude/
+.agents/
+PRODUCT.md
+DESIGN.md
+Cardarelli_CV.md

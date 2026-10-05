@@ -1,290 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorenzo Cardarelli | Conference Talks</title>
+    <title>Talks | Lorenzo Cardarelli</title>
+    <meta name="description" content="Conference talks and invited presentations by Lorenzo Cardarelli, 2020 to 2026.">
+    <meta property="og:title" content="Talks | Lorenzo Cardarelli">
+    <meta property="og:description" content="Conference talks and invited presentations by Lorenzo Cardarelli, 2020 to 2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Silkscreen&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <style>
-        .talk-year {
-            font-size: 2rem;
-            color: var(--accent-hover);
-            margin: 3rem 0 1.5rem 0;
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .talk-year::after {
-            content: '';
-            height: 1px;
-            flex: 1;
-            background: var(--border-glass);
-        }
-
-        .talk-card {
-            margin-bottom: 1.5rem;
-        }
-
-        .talk-conference {
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 0.5rem;
-            font-size: 1.1rem;
-        }
-
-        .talk-details {
-            color: var(--text-secondary);
-        }
-
-        .talk-details strong {
-            color: var(--text-primary);
-        }
-
-        .talk-location {
-            margin-top: 0.5rem;
-            font-style: italic;
-            color: var(--accent-primary);
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            font-size: 0.875rem;
-        }
-    </style>
 </head>
-
 <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="wordmark" href="index.html">Lorenzo Cardarelli</a>
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="talks.html" aria-current="page">Talks</a></li>
+                <li><a href="packages.html">Packages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <header class="page-head">
+            <h1>Talks</h1>
+            <p class="lede">Conference papers and invited talks, most recent first.</p>
+        </header>
 
-    <div class="app-container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="sidebar-header">
-                <div class="sidebar-title">L. Cardarelli</div>
-                <div class="sidebar-subtitle">Computational Archaeology</div>
-            </div>
-            <nav>
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="index.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                            </svg> Home</a></li>
-                    <li class="nav-item"><a href="publications.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                            </svg> Publications</a></li>
-                    <li class="nav-item"><a href="cv.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                <polyline points="14 2 14 8 20 8"></polyline>
-                                <line x1="16" y1="13" x2="8" y2="13"></line>
-                                <line x1="16" y1="17" x2="8" y2="17"></line>
-                                <polyline points="10 9 9 9 8 9"></polyline>
-                            </svg> CV</a></li>
-                    <li class="nav-item"><a href="talks.html" class="active"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                            </svg> Conference Talks</a></li>
-                    <li class="nav-item"><a href="packages.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
-                                <path
-                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                                </path>
-                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                            </svg> Packages</a></li>
-                </ul>
-            </nav>
-
-            <div style="margin-top: auto; padding-top: 2rem;">
-                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
-                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <span>Switch Theme</span>
-                </button>
-            </div>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <div class="page-header animate-on-scroll">
-                <h1>Conference Talks</h1>
-                <div class="header-illustration">
-                    <!-- Speech Bubble 1 -->
-                    <div class="float-1" style="top: 10px; right: 20px;">
-                        <svg style="width: 100px; height: 100px; transform: rotate(10deg); opacity: 0.9;"
-                            viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M 10 30 C 10 10, 90 10, 90 30 C 90 50, 70 70, 50 70 L 30 90 L 30 70 C 10 60, 10 50, 10 30 Z"
-                                fill="#FFB7B2" stroke-linejoin="round" />
-                            <circle cx="35" cy="40" r="5" fill="#fff" opacity="0.8" />
-                            <circle cx="50" cy="40" r="5" fill="#fff" opacity="0.8" />
-                            <circle cx="65" cy="40" r="5" fill="#fff" opacity="0.8" />
-                        </svg>
-                    </div>
-                    <!-- Speech Bubble 2 -->
-                    <div class="float-2" style="top: 40px; right: 90px;">
-                        <svg style="width: 80px; height: 80px; transform: rotate(-10deg); opacity: 0.9;"
-                            viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M 90 30 C 90 10, 10 10, 10 30 C 10 50, 30 70, 50 70 L 70 90 L 70 70 C 90 60, 90 50, 90 30 Z"
-                                fill="#AEC6CF" stroke-linejoin="round" />
-                        </svg>
-                    </div>
+        <section aria-labelledby="talks-list">
+            <h2 id="talks-list">Conference talks</h2>
+            <ul class="rows">
+            <li class="row">
+                <div class="row-date">2026</div>
+                <div class="row-body">
+                    <p class="row-title">From legacy data to training data: AI-driven and open archaeological workflows, the example of pottery</p>
+                    <p class="row-meta">Cardarelli L., Bogdani J.</p><p class="row-meta">53rd CAA annual meeting, Vienna</p>
+                    
                 </div>
-            </div>
-
-            <!-- 2026 -->
-            <div class="animate-on-scroll">
-                <h2 class="talk-year">2026</h2>
-
-                <div class="glass-card talk-card">
-                    <div class="talk-conference">53th CAA annual meeting</div>
-                    <div class="talk-details">
-                        From Legacy Data to Training Data: AI-Driven and Open Archaeological Workflows: the example of pottery, <strong>Cardarelli L.</strong>, J. Bogdani.
-                    </div>
-                    <div class="talk-location">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        Rome, 31st March - 4th April 2026
-                    </div>
+            </li>
+            <li class="row">
+                <div class="row-date">2024</div>
+                <div class="row-body">
+                    <p class="row-title">New perspective in quantitative archaeology: data driven approaches in pottery analysis</p>
+                    <p class="row-meta"><strong>Cardarelli L.</strong></p><p class="row-meta">30th EAA annual meeting, Rome</p>
+                    
                 </div>
-            </div>
-
-            <!-- 2024 -->
-            <div class="animate-on-scroll">
-                <h2 class="talk-year">2024</h2>
-
-                <div class="glass-card talk-card">
-                    <div class="talk-conference">30th EAA annual meeting</div>
-                    <div class="talk-details">
-                        <strong>Cardarelli L.</strong>, New perspective in quantitative archaeology: data driven
-                        approaches in pottery analysis.
-                    </div>
-                    <div class="talk-location">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        Rome, 28th - 31th August 2024
-                    </div>
+            </li>
+            <li class="row">
+                <div class="row-date">2024</div>
+                <div class="row-body">
+                    <p class="row-title">New directions in chert provenance: towards new basis for detecting mobility and territorial behaviour in central Italy during prehistory</p>
+                    <p class="row-meta">Carletti E., Eramo G., <strong>Cardarelli L.</strong>, Forti L., Allegretta I., Monno A., Conati Barbaro C.</p><p class="row-meta">30th EAA annual meeting, Rome</p>
+                    
                 </div>
-
-                <div class="glass-card talk-card">
-                    <div class="talk-conference">30th EAA annual meeting</div>
-                    <div class="talk-details">
-                        Carletti E., Eramo G., <strong>Cardarelli L.</strong>, Forti L., Allegretta I., Monno A., Conati
-                        Barbaro C., New directions in chert provenance: towards new basis for detecting mobility ad
-                        territorial behaviour in central Italy during prehistory.
-                    </div>
-                    <div class="talk-location">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        Rome, 28th - 31th August 2024
-                    </div>
+            </li>
+            <li class="row">
+                <div class="row-date">2024</div>
+                <div class="row-body">
+                    <p class="row-title">Presentation of the project &ldquo;Southern Ecuador and Northern Peru as an Andean interface (AD 500-1532)&rdquo;</p>
+                    <p class="row-meta">Lara C., <strong>Cardarelli L.</strong>, Lago G., Montalvo C., Tacconi S., Costantine A.</p><p class="row-meta">30th EAA annual meeting, Rome</p>
+                    
                 </div>
-
-                <div class="glass-card talk-card">
-                    <div class="talk-conference">30th EAA annual meeting</div>
-                    <div class="talk-details">
-                        Lara C., <strong>Cardarelli L.</strong>, Lago G., Montalvo C., Tacconi S., Costantine A.,
-                        Presentation of the project "Southern Ecuador and Northern Peru as an Andrean interface (AD
-                        500-1532)".
-                    </div>
-                    <div class="talk-location">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        Rome, 28th - 31th August 2024
-                    </div>
+            </li>
+            <li class="row">
+                <div class="row-date">2023</div>
+                <div class="row-body">
+                    <p class="row-title">Avances sobre los estudios de las hachas-monedas</p>
+                    <p class="row-meta">Montalvo Puente C. E., Lago G., <strong>Cardarelli L.</strong>, Pérez Molina J. C.</p><p class="row-meta">Conversation, Museo Numismático, Banco Central del Ecuador, Quito, 23 July</p>
+                    
                 </div>
-            </div>
-
-            <!-- 2023 -->
-            <div class="animate-on-scroll">
-                <h2 class="talk-year">2023</h2>
-
-                <div class="glass-card talk-card">
-                    <div class="talk-conference">Conversation - Museo Numismatico, Banco Central del Ecuador</div>
-                    <div class="talk-details">
-                        Montalvo Puente C. E., Lago G., <strong>Cardarelli L.</strong>, Pérez Molina J. C., Avances
-                        sobre los estudios de las hachas-monedas.
-                    </div>
-                    <div class="talk-location">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        Quito (ECU), 23 July 2023
-                    </div>
+            </li>
+            <li class="row">
+                <div class="row-date">2023</div>
+                <div class="row-body">
+                    <p class="row-title">Computerised approaches for investigating the morphological standardization of Arslantepe VI A pottery</p>
+                    <p class="row-meta"><strong>Cardarelli L.</strong></p><p class="row-meta">13th ICAANE, workshop <em>Serialising, standardising, specialising: investigating a techno-social nexus underlying social complexity</em>, Copenhagen, 24 May</p>
+                    
                 </div>
-
-                <div class="glass-card talk-card">
-                    <div class="talk-conference">13° International Congress on the Archaeology of the Ancient Near East
-                        (ICAANE)</div>
-                    <div class="talk-details">
-                        Workshop Serialising, standardising, specialising: Investigating a techno-social nexus
-                        underlying social complexity. <strong>Cardarelli L.</strong>, Computerised approaches for
-                        investigating the morphological standardization of Arslantepe VI A pottery.
-                    </div>
-                    <div class="talk-location">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        Copenhagen, 24 May 2023
-                    </div>
+            </li>
+            <li class="row">
+                <div class="row-date">2020</div>
+                <div class="row-body">
+                    <p class="row-title">Capienza delle forme vascolari: un metodo basato su strumenti e formati open source che include l'uso di modelli regressivi, il caso dell'insediamento protostorico del Monte Cimino</p>
+                    <p class="row-meta"><strong>Cardarelli L.</strong></p><p class="row-meta">IAS, Incontri di Archeologia 2020, Digital Humanities Session I-II, Rome, 19 November</p>
+                    
                 </div>
-            </div>
+            </li>
+            </ul>
+        </section>
 
-            <!-- 2020 -->
-            <div class="animate-on-scroll">
-                <h2 class="talk-year">2020</h2>
-
-                <div class="glass-card talk-card">
-                    <div class="talk-conference">IAS -- Incontri di Archeologia 2020. Digital Humanities Session I-II
-                    </div>
-                    <div class="talk-details">
-                        <strong>Cardarelli L.</strong>, Capienza delle forme vascolari, un metodo basato su strumenti e
-                        formati open source che include l'uso di modelli regressivi: il caso dell'insediamento
-                        protostorico del Monte Cimino (paper).
-                    </div>
-                    <div class="talk-location">
-                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                            <circle cx="12" cy="10" r="3"></circle>
-                        </svg>
-                        Rome, 19 November 2020
-                    </div>
-                </div>
-            </div>
-
-        </main>
-    </div>
-
+    </main>
+    <footer>
+        <div>
+            <span>Lorenzo Cardarelli</span>
+            <span><a href="mailto:lorenzo.cardarelli@uni-goettingen.de">lorenzo.cardarelli@uni-goettingen.de</a></span>
+        </div>
+    </footer>
 </body>
-
 </html>

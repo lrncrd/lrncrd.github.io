@@ -1,333 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lorenzo Cardarelli | Packages</title>
+    <title>Packages | Lorenzo Cardarelli</title>
+    <meta name="description" content="The PyPottery suite (Lens, Scan, Ink, Trace, Layout) and other open-source tools for archaeological pottery by Lorenzo Cardarelli.">
+    <meta property="og:title" content="Packages | Lorenzo Cardarelli">
+    <meta property="og:description" content="The PyPottery suite (Lens, Scan, Ink, Trace, Layout) and other open-source tools for archaeological pottery by Lorenzo Cardarelli.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Silkscreen&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <style>
-        .packages-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .package-card {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            padding: 3rem 2rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .package-image {
-            height: 120px;
-            object-fit: contain;
-            margin-bottom: 2rem;
-            filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.3));
-            transition: transform var(--transition-smooth);
-            border-radius: var(--radius-md);
-        }
-
-        .package-card:hover .package-image {
-            transform: scale(1.05);
-        }
-
-        .package-title {
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-            color: var(--text-primary);
-        }
-
-        .package-subtitle {
-            font-size: 0.9rem;
-            color: var(--accent-hover);
-            margin-bottom: 1.5rem;
-            font-style: italic;
-        }
-
-        .package-desc {
-            margin-bottom: 2rem;
-            flex-grow: 1;
-            font-size: 0.95rem;
-        }
-
-        .package-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid var(--border-glass);
-            border-radius: var(--radius-full);
-            color: var(--text-primary);
-            font-weight: 500;
-            transition: all var(--transition-fast);
-        }
-
-        .package-link:hover {
-            background: var(--accent-primary);
-            border-color: var(--accent-primary);
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
-        }
-    </style>
 </head>
-
 <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="wordmark" href="index.html">Lorenzo Cardarelli</a>
+        <nav class="site-nav" aria-label="Main">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="talks.html">Talks</a></li>
+                <li><a href="packages.html" aria-current="page">Packages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <header class="page-head">
+            <h1>Packages</h1>
+            <p class="lede">Open-source tools for processing, comparing and publishing archaeological pottery data. The pipeline papers are listed under <a href="publications.html">publications</a>.</p>
+        </header>
 
-    <div class="app-container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="sidebar-header">
-                <div class="sidebar-title">L. Cardarelli</div>
-                <div class="sidebar-subtitle">Computational Archaeology</div>
-            </div>
-            <nav>
-                <ul class="nav-menu">
-                    <li class="nav-item"><a href="index.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                            </svg> Home</a></li>
-                    <li class="nav-item"><a href="publications.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-                            </svg> Publications</a></li>
-                    <li class="nav-item"><a href="cv.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                <polyline points="14 2 14 8 20 8"></polyline>
-                                <line x1="16" y1="13" x2="8" y2="13"></line>
-                                <line x1="16" y1="17" x2="8" y2="17"></line>
-                                <polyline points="10 9 9 9 8 9"></polyline>
-                            </svg> CV</a></li>
-                    <li class="nav-item"><a href="talks.html"><svg class="nav-icon" viewBox="0 0 24 24">
-                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                            </svg> Conference Talks</a></li>
-                    <li class="nav-item"><a href="packages.html" class="active"><svg class="nav-icon"
-                                viewBox="0 0 24 24">
-                                <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
-                                <path
-                                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
-                                </path>
-                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                            </svg> Packages</a></li>
-                </ul>
-            </nav>
-
-            <div style="margin-top: auto; padding-top: 2rem;">
-                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
-                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <span>Switch Theme</span>
-                </button>
-            </div>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="main-content">
-            <div class="page-header animate-on-scroll">
+        <section aria-labelledby="suite">
+            <h2 id="suite">PyPottery suite</h2>
+            <p class="suite-intro">Every manual step of the classical documentation workflow has a counterpart: capture drawings, refine them, publish plates. Use the whole chain or only the step you need. Everything runs on your own computer, so unpublished finds stay private.</p>
+            <article class="package">
+                <img src="assets/logo_pypottery.png" alt="PyPottery logo: an amphora split between navy and terracotta, with a Python snake inside" width="1200" height="800" loading="lazy">
                 <div>
-                    <h1 style="margin-bottom: 0.5rem;">Software Packages</h1>
-                    <p style="max-width: 600px; margin-bottom: 0; color: var(--text-secondary);">Explore the open-source
-                        tools
-                        and frameworks I've developed for computational archaeology, deep learning applications, and
-                        quantitative analysis.</p>
+                    <h3>PyPottery</h3>
+                    <p class="kind">Launcher and documentation</p>
+                    <p>The entry point to the suite. A launcher installs and updates every tool, with no Python installation required, and the documentation has one guide per tool. Runs locally on Windows, macOS and Linux.</p>
+                    <p class="links"><a href="https://lrncrd.github.io/PyPottery/">Documentation</a><a href="https://github.com/lrncrd/PyPottery/releases/latest">Download launcher</a><a href="https://github.com/lrncrd/PyPottery">GitHub</a></p>
                 </div>
-                <div class="header-illustration">
-                    <!-- Box -->
-                    <div class="float-2" style="top: 20px; right: 50px;">
-                        <svg style="width: 90px; height: 90px; opacity: 0.9;" viewBox="0 0 100 100"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path d="M 50 10 L 90 30 L 90 70 L 50 90 L 10 70 L 10 30 Z" fill="#FFDAC1" />
-                            <path d="M 50 10 L 90 30 L 50 50 L 10 30 Z" fill="#FFE5CC" />
-                            <path d="M 10 30 L 50 50 L 50 90 L 10 70 Z" fill="#FFD0A8" />
-                        </svg>
-                    </div>
-                    <!-- Code Brackets -->
-                    <div class="float-1" style="top: 60px; right: 10px;">
-                        <svg style="width: 60px; height: 60px; transform: rotate(15deg); opacity: 0.9;"
-                            viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="0" y="0" width="100" height="100" rx="20" fill="#C7CEEA" />
-                            <path d="M 35 30 L 15 50 L 35 70" fill="none" stroke="#fff" stroke-width="8"
-                                stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
-                            <path d="M 65 30 L 85 50 L 65 70" fill="none" stroke="#fff" stroke-width="8"
-                                stroke-linecap="round" stroke-linejoin="round" opacity="0.8" />
-                            <line x1="55" y1="25" x2="45" y2="75" stroke="#fff" stroke-width="8" stroke-linecap="round"
-                                opacity="0.8" />
-                        </svg>
-                    </div>
-                    <!-- Small decorative element -->
-                    <div class="float-3" style="top: 5px; right: 120px;">
-                        <svg style="width: 35px; height: 35px; opacity: 0.8; transform: rotate(45deg);"
-                            viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="35" y="10" width="30" height="80" rx="4" fill="#B5EAD7" />
-                            <rect x="10" y="35" width="80" height="30" rx="4" fill="#B5EAD7" />
-                            <circle cx="50" cy="50" r="25" fill="#B5EAD7" />
-                            <circle cx="50" cy="50" r="10" fill="var(--bg-primary)" />
-                        </svg>
-                    </div>
+            </article>
+            <article class="package">
+                <img src="assets/LogoLens.png" alt="PyPotteryLens logo" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>PyPotteryLens</h3>
+                    <p class="kind">Capture</p>
+                    <p>Pulls vessel drawings out of monograph PDFs, so legacy publications become structured data.</p>
+                    <p class="links"><a href="https://lrncrd.github.io/PyPottery/pypotterylens/">Guide</a><a href="https://github.com/lrncrd/PyPotteryLens">GitHub</a><a href="https://doi.org/10.1016/j.daach.2025.e00452">Paper</a></p>
                 </div>
-            </div>
-
-            <div class="packages-grid">
-
-                <!-- PyPotteryInk -->
-                <div class="glass-card package-card animate-on-scroll">
-                    <img src="assets/LogoInk.png" alt="PyPotteryInk Logo" class="package-image">
-                    <h3 class="package-title">PyPotteryInk</h3>
-                    <div class="package-subtitle">Deep learning for archaeological inking</div>
-                    <p class="package-desc">
-                        A deep learning Python package for automating the digital inking process of archaeological
-                        pottery drawings. It transforms pencil drawings into publication-ready illustrations while
-                        preserving the original characteristics.
-                    </p>
-                    <a href="https://github.com/lrncrd/PyPotteryInk" target="_blank" class="package-link">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                            </path>
-                        </svg>
-                        GitHub Repository
-                    </a>
+            </article>
+            <article class="package">
+                <img src="assets/LogoScan.png" alt="PyPotteryScan logo" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>PyPotteryScan <span class="status">under review</span></h3>
+                    <p class="kind">Capture</p>
+                    <p>Digitises scanned plates and reads their labels, including handwritten field cards.</p>
+                    <p class="links"><a href="https://lrncrd.github.io/PyPottery/pypotteryscan/">Guide</a><a href="https://github.com/lrncrd/PyPotteryScan">GitHub</a></p>
                 </div>
-
-                <!-- PyPotteryLens -->
-                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.1s;">
-                    <img src="assets/LogoLens.png" alt="PyPotteryLens Logo" class="package-image">
-                    <h3 class="package-title">PyPotteryLens</h3>
-                    <div class="package-subtitle">Desktop app for pottery drawings recording</div>
-                    <p class="package-desc">
-                        A Gradio desktop application for archaeological pottery drawings recording. It provides a
-                        comprehensive suite of tools for processing, detecting, and analyzing pottery fragments from
-                        scanned documents.
-                    </p>
-                    <a href="https://github.com/lrncrd/PyPottery/tree/PyPotteryLens" target="_blank"
-                        class="package-link">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                            </path>
-                        </svg>
-                        GitHub Repository
-                    </a>
+            </article>
+            <article class="package">
+                <img src="assets/LogoInk.png" alt="PyPotteryInk logo: a vessel half pencil sketch, half ink drawing" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>PyPotteryInk</h3>
+                    <p class="kind">Refine</p>
+                    <p>Turns pencil sketches into publication-ready ink with a one-step diffusion model.</p>
+                    <p class="links"><a href="https://lrncrd.github.io/PyPottery/pypotteryink/">Guide</a><a href="https://github.com/lrncrd/PyPotteryInk">GitHub</a><a href="https://doi.org/10.1016/j.culher.2025.06.016">Paper</a></p>
                 </div>
-
-                <!-- CQArchaeo -->
-                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.2s;">
-                    <img src="assets/logo_cqarchaeo.jpg" alt="CQArchaeo Logo" class="package-image"
-                        style="border-radius: 50%;">
-                    <h3 class="package-title">CQArchaeo</h3>
-                    <div class="package-subtitle">Kendall CQA results analysis</div>
-                    <p class="package-desc">
-                        A Python package for calculating and plotting Kendall CQA results. It allows researchers to test
-                        numerical datasets using Kendall's formula (1974) efficiently.
-                    </p>
-                    <a href="https://github.com/lrncrd/CQArchaeo" target="_blank" class="package-link">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                            </path>
-                        </svg>
-                        GitHub Repository
-                    </a>
+            </article>
+            <article class="package">
+                <img src="assets/LogoTrace.png" alt="PyPotteryTrace logo" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>PyPotteryTrace <span class="status">under review</span></h3>
+                    <p class="kind">Refine</p>
+                    <p>Vectorises profiles into editable SVG, with segmentation by SAM 2.</p>
+                    <p class="links"><a href="https://lrncrd.github.io/PyPottery/pypotterytrace/">Guide</a><a href="https://github.com/lrncrd/PyPotteryTrace">GitHub</a></p>
                 </div>
-
-                <!-- Ceramatic 2.0 -->
-                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.1s;">
-                    <img src="assets/logo_ceramatic.png" alt="Ceramatic 2.0 Logo" class="package-image">
-                    <h3 class="package-title">Ceramatic2.0</h3>
-                    <div class="package-subtitle">Computer vision for drawings</div>
-                    <p class="package-desc">
-                        A computer vision pipeline for archaeological drawings.
-                    </p>
-                    <a href="https://github.com/lrncrd/Ceramatic2.0" target="_blank" class="package-link">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                            </path>
-                        </svg>
-                        GitHub Repository
-                    </a>
+            </article>
+            <article class="package">
+                <img src="assets/LogoLayout.png" alt="PyPotteryLayout logo" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>PyPotteryLayout</h3>
+                    <p class="kind">Publish</p>
+                    <p>Composes plates and artefact tables with consistent scale and captions.</p>
+                    <p class="links"><a href="https://lrncrd.github.io/PyPottery/pypotterylayout/">Guide</a><a href="https://github.com/lrncrd/PyPotteryLayout">GitHub</a></p>
                 </div>
+            </article>
+        </section>
 
-                <!-- PyPotteryLayout -->
-                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.2s;">
-                    <img src="assets/LogoLayout.png" alt="PyPotteryLayout Logo" class="package-image">
-                    <h3 class="package-title">PyPotteryLayout</h3>
-                    <div class="package-subtitle">Artefact tables creator</div>
-                    <p class="package-desc">
-                        A Python package for the intelligent creation of artefact tables.
-                    </p>
-                    <a href="https://github.com/lrncrd/PyPotteryLayout" target="_blank" class="package-link">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                            </path>
-                        </svg>
-                        GitHub Repository
-                    </a>
+        <section aria-labelledby="more">
+            <h2 id="more">Other software</h2>
+            <article class="package">
+                <img src="assets/logo_ceramatic.png" alt="Ceramatic 2.0 logo" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>Ceramatic 2.0</h3>
+                    <p class="kind">Computer vision pipeline</p>
+                    <p>A computer vision pipeline for archaeological drawings, evaluated against manual and laser-aided documentation.</p>
+                    <p class="links"><a href="https://github.com/lrncrd/Ceramatic2.0">GitHub</a><a href="https://doi.org/10.1016/j.daach.2025.e00435">Evaluation paper</a></p>
                 </div>
-
-                <!-- Ceraloop! -->
-                <div class="glass-card package-card animate-on-scroll" style="transition-delay: 0.3s;">
-                    <img src="assets/CeraLoop.png" alt="Ceraloop! Logo" class="package-image">
-                    <h3 class="package-title">Ceraloop!</h3>
-                    <div class="package-subtitle">Perception and comparison</div>
-                    <p class="package-desc">
-                        A web-based framework for analysing the concepts of "perception" and "comparison" in
-                        archaeology. With Prof. Julian Bogdani.
-                    </p>
-                    <a href="https://ceraloop.lad-sapienza.it/" target="_blank" class="package-link">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="2" y1="12" x2="22" y2="12"></line>
-                            <path
-                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                            </path>
-                        </svg>
-                        Website
-                    </a>
-                    <a href="https://github.com/lad-sapienza/ceraloop" target="_blank" class="package-link"
-                        style="margin-top: 0.5rem;">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
-                            stroke-width="2">
-                            <path
-                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                            </path>
-                        </svg>
-                        GitHub Repository
-                    </a>
+            </article>
+            <article class="package">
+                <img src="assets/CeraLoop.png" alt="Ceraloop logo" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>Ceraloop</h3>
+                    <p class="kind">Web framework, with Julian Bogdani</p>
+                    <p>A web-based framework for analysing perception and comparison in archaeological pottery.</p>
+                    <p class="links"><a href="https://ceraloop.lad-sapienza.it/">Website</a><a href="https://github.com/lad-sapienza/ceraloop">GitHub</a></p>
                 </div>
+            </article>
+            <article class="package">
+                <img src="assets/logo_cqarchaeo.jpg" alt="CQArchaeo logo" width="1200" height="800" loading="lazy">
+                <div>
+                    <h3>CQArchaeo</h3>
+                    <p class="kind">Python package</p>
+                    <p>Calculates and plots Kendall's cosine quantogram analysis (1974) results, with Monte Carlo simulations.</p>
+                    <p class="links"><a href="https://github.com/lrncrd/CQArchaeo">GitHub</a><a href="https://doi.org/10.19282/ac.35.1.2024.15">Paper</a></p>
+                </div>
+            </article>
+        </section>
 
-            </div>
-
-        </main>
-    </div>
-
+    </main>
+    <footer>
+        <div>
+            <span>Lorenzo Cardarelli</span>
+            <span><a href="mailto:lorenzo.cardarelli@uni-goettingen.de">lorenzo.cardarelli@uni-goettingen.de</a></span>
+        </div>
+    </footer>
 </body>
-
 </html>
